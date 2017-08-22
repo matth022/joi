@@ -2,8 +2,8 @@
   "name": "joi",
   "description": "Object schema validation",
   "version": "10.6.0",
-  "homepage": "https://github.com/hapijs/joi",
-  "repository": "git://github.com/hapijs/joi",
+  "homepage": "https://github.com/matth022/joi",
+  "repository": "git://github.com/matth022/joi",
   "main": "lib/index.js",
   "keywords": [
     "hapi",
@@ -14,10 +14,10 @@
     "node": ">=4.0.0"
   },
   "dependencies": {
-    "hoek": "4.x.x",
-    "isemail": "3.x.x",
-    "items": "2.x.x",
-    "topo": "2.x.x"
+    "hoek": "git+https://github.com/matth022/hoek.git",
+    "isemail": "git+https://github.com/matth022/isemail.git",
+    "items": "git+https://github.com/matth022/items.git",
+    "topo": "git+https://github.com/matth022/topo.git"
   },
   "devDependencies": {
     "hapitoc": "1.x.x",
